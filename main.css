@@ -1,0 +1,70 @@
+html{
+     scroll-behavior: smooth;
+}
+
+
+
+body{
+    background-color: dodgerblue;
+    color: aquamarine;
+   
+     
+}
+
+.heading{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    font-size: 9vmax;
+    line-height: 1.1;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green{
+    color: green;
+}
+
+#content {
+    text-align: center;
+}
+
+#content h2 {
+    font-size: 5vmax;
+    
+}
+
+#los {
+    color: white;
+    text-decoration: none;
+    font-size: 15vmax;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%)
+}
+
+#bild{
+    width: 30vmax;
+    
+}
+
+/* media query für die PC ansicht*/
+
+@media only screen and (min-width: 1000px){
+    .heading{
+        font-size: 6rem;
+        
+    }
+    
+    #los{
+        font-size: 4rem;
+    }
+    
+    
+    
+}
